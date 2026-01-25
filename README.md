@@ -11,7 +11,7 @@ Hệ thống hỗ trợ sinh viên xây dựng lộ trình học tập tối ưu
 
 ## 🚀 Công nghệ sử dụng (Tech Stack)
 
-Dự án được xây dựng theo kiến trúc **Microservices** (Service-oriented) với 3 thành phần chính:
+Dự án được xây dựng theo kiến trúc **Microservices** (Service-oriented) với các thành phần chính:
 
 * **Frontend:** ReactJS (Vite), TypeScript.
 * **Backend:** NestJS (Node.js), TypeScript.
