@@ -8,6 +8,7 @@ export class AiController {
 
   @Post('recommend-schedule')
   recommend(@Body() body: RecommendScheduleDto) {
-    return this.aiService.recommendSchedule(body);
+    const userId = 'demo-user-id';
+    return this.aiService.recommendSchedule(userId, body);
   }
 }

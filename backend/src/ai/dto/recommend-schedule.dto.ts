@@ -1,4 +1,4 @@
-import { IsArray, IsNumber, IsObject } from 'class-validator';
+import { IsArray, IsNumber, IsObject, IsString } from 'class-validator';
 
 export class RecommendScheduleDto {
   @IsArray()
@@ -9,4 +9,7 @@ export class RecommendScheduleDto {
 
   @IsNumber()
   maxStudyHoursPerDay: number;
+
+  @IsString()
+  goal: string;
 }
